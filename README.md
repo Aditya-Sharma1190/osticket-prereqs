@@ -51,23 +51,25 @@ Log into the VM with Remote Desktop Within the VM (osticket-vm), download the os
 ![image](https://github.com/user-attachments/assets/accbf9d4-d764-4f05-8ffb-1dc490738812)
 
 
+Next, we will enable IIS(Internet Information Services) to make our VM a webserver with CGI, Dependency that osTicket needs from Control panel by turning windows features on 
+
+![image](https://github.com/user-attachments/assets/286a31d1-118d-4814-88a6-9cf4f0a0d425)
+
+
+From the “osTicket-Installation-Files” folder, install PHP Manager for IIS
+(PHPManagerForIIS_V1.5.0.msi) and install the Rewrite Module (rewrite_amd64_en-US.msi) and Create the directory C:\PHP
+![image](https://github.com/user-attachments/assets/e7012065-e7c5-48b2-a37e-a4bbdfd8ac45)
+
+From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8(php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+![image](https://github.com/user-attachments/assets/3ecdc732-fddc-4610-ac23-53495f3151a4)
+
+From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe, install MySQL 5.5.62
+(mysql-5.5.62-win32.msi)
+- Typical Setup ->
+- Launch Configuration Wizard (after install) ->
+- Standard Configuration ->
+- Username: root
+- Password: root
 
 
 
-
-
-
-
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
