@@ -63,13 +63,29 @@ From the “osTicket-Installation-Files” folder, install PHP Manager for IIS
 From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8(php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
 ![image](https://github.com/user-attachments/assets/3ecdc732-fddc-4610-ac23-53495f3151a4)
 
-From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe, install MySQL 5.5.62
+From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe, install MySQL(DB) 5.5.62
 (mysql-5.5.62-win32.msi)
 - Typical Setup ->
 - Launch Configuration Wizard (after install) ->
 - Standard Configuration ->
 - Username: root
 - Password: root
+- 
+![image](https://github.com/user-attachments/assets/9ef8f157-db45-4642-8426-20273bfaab52)
+
+Next, Open IIS as an Admin, double click php manager , Register new PHP Version, browse to c:\PHP\php-cgi.exe
+
+![image](https://github.com/user-attachments/assets/dde81fa1-1a9e-4cf0-923d-f5b69d359da2)
+![image](https://github.com/user-attachments/assets/e6b50a86-3383-4281-858a-71ff0cea05fe)
+
+Reload IIS (Open IIS, Stop and Start the server)
+![image](https://github.com/user-attachments/assets/ef72f4e5-78fb-4d3c-9a0f-aebbffd691da)
+
+<h2>osTicket Installation</h2>
+
+
+
+
 
 
 
