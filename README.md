@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket -Installation, Configuration, Admin and Helpdesk panel view, Ticket Lifecycle</h1>
 
 ![image](https://github.com/user-attachments/assets/73f0b1ff-311a-4399-b226-fd03c30107b2)
 
