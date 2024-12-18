@@ -11,9 +11,7 @@ What is being done?<br />
 -Setup a Virtual Machine in Azure<br />
 -install the osTicket requirements<br />
 -install osTicket<br />
--Configuration<br />
--Explore osTicket from a Help Desk Perspective<br />
--create, interact, close tickets<br />
+
 
 
 <h2>Environments and Technologies Used</h2>
